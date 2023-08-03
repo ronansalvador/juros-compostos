@@ -1,34 +1,41 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Juros Compostos
 
-## Getting Started
+Neste projeto, você encontra um calculador de juros compostos e um conversor de juros que foram desenvolvidos com Next.js, TypeScript e Tailwind.
 
-First, run the development server:
+## Instalação
+
+Clone o repositório
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+  git clone git@github.com:ronansalvador/juros-compostos.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Instale as dependências
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+  npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Build
 
-## Learn More
+```bash
+npm run build
+``` 
 
-To learn more about Next.js, take a look at the following resources:
+### Executando a aplicação
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm run start
+``` 
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Abra [http://localhost:3000](http://localhost:3000) em seu navegador e veja o resultado. (caso execute a aplicação em outra porta altere a url para vizualizar.)
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Executando em ambiente de desenvolvimento
+```bash
+npm run dev
+# ou
+yarn dev
+# ou
+pnpm dev
+```
