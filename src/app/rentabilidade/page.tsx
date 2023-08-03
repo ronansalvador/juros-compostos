@@ -143,7 +143,7 @@ function Rentabilidade() {
             </div>
             </div>
             
-            <button className='text-white bg-purple-700 h-16 p-2 rounded-2xl flex justify-center items-center w-2/5 text-center hover:scale-110 font-medium mt-3' onClick={() => calcularRentabilidade()}>Salvar</button>
+            <button className='text-white bg-purple-700 h-16 p-2 rounded-2xl flex justify-center items-center w-2/5 text-center hover:scale-110 font-medium mt-3' onClick={() => calcularRentabilidade()}>Calcular</button>
           </>
           ) : (
           <div className='flex flex-col w-full gap-10 mt-10 items-center justify-evenly'>
