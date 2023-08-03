@@ -1,6 +1,6 @@
 # Juros Compostos
 
-Neste projeto, você encontra um calculador de juros compostos e um conversor de juros que foram desenvolvidos com Next.js, TypeScript e Tailwind.
+Neste projeto, você encontra uma calculadora de juros compostos e um conversor de juros que foram desenvolvidos com Next.js, TypeScript e Tailwind.
 
 ## Instalação
 
