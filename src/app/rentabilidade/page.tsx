@@ -80,7 +80,7 @@ function Rentabilidade() {
   const calcularRentabilidade = () => {
     if (inicial === '' && mensal === '') {
       return showToastError(
-        'Valor inicial e valor mensal não podem ser vazios',
+        'Valor inicial ou valor mensal não podem ser vazios',
       );
     }
     if (!tempo) {
